@@ -1,0 +1,12 @@
+name: phantom_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11.5
+  - numpy=1.26.2
+  - tk=0.1.0
+  - matplotlib=3.8.2
+  - pyserial=3.5
+  - scipy=1.11.4
+prefix: 

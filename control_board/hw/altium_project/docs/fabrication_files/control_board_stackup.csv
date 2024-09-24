@@ -1,0 +1,25 @@
+﻿Board Layer Stack
+Number,Name,Type,Manufacturer,Material,Process,Thickness (mm),Weight (oz),Dk,Df,Orientation,Copper Orientation,Pullback distance (mm),Description,Color,Constructions,Solid (%),Resin (%),Frequency (GHz),GlassTransTemp (°C)
+,Top Overlay,Overlay,,,,,,,,,,,,,,,,,
+,Top Solder,Solder Mask,Altium Designer,SM-001,,0.01,,4,0.03,,,,Solder Mask,#FF008000,,1,,1,125
+,Top Surface Finish,Surface Finish,,PbSn,HASL,0.004,,,,,,,,#FFF2F2F2,,,,,
+1,Top Layer,Signal,Altium Designer,CF-004,ED,0.035,1,,,Top,Above,,Copper Foil,,,,,,
+,Dielectric 1,Prepreg,Altium Designer,PP-017,,0.2104,,4,0.02,,,,,,2116,,57,1,180
+2,Int1 (GND),Plane,Altium Designer,CF-004,ED,0.035,1,,,,Above,0.508,Copper Foil,,,,,,
+,Dielectric 3,Core,Altium Designer,Core-039,,1.065,,4.8,0.02,,,,FR4,,4-7628,,40,1,180
+3,Int 2 (PWR),Plane,Altium Designer,CF-004,ED,0.035,1,,,,Below,0.508,Copper Foil,,,,,,
+,Dielectric 5,Prepreg,Altium Designer,PP-017,,0.2104,,4,0.02,,,,,,2116,,57,1,180
+4,Bottom Layer,Signal,Altium Designer,CF-004,ED,0.035,1,,,Bottom,Below,,Copper Foil,,,,,,
+,Bottom Surface Finish,Surface Finish,,PbSn,HASL,0.004,,,,,,,,#FFF2F2F2,,,,,
+,Bottom Solder,Solder Mask,Altium Designer,SM-001,,0.01,,4,0.03,,,,Solder Mask,#FF008000,,1,,1,125
+,Bottom Overlay,Overlay,,,,,,,,,,,,,,,,,
+
+
+No impedances
+
+Via types
+#,Name,Type,Layers,Stack
+1,Thru 1:4,Thru,Top Layer-Bottom Layer,Board Layer Stack
+
+
+No back drills
