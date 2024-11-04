@@ -1,4 +1,4 @@
-<img src="docs/images/dopflow_main.png" alt="DOPFLOW main" width="90%"/>
+<img src="docs/images/dopflow_main.jpg" alt="DOPFLOW main" width="90%"/>
 
 # DOPFLOW: 
 ## Open-Source Fully-Programmable Flow Phantom for Doppler Ultrasound
@@ -17,7 +17,7 @@ The platform allows users to define pulsatile patterns and achieve maximum flow 
 
 ### Structure
 This repository has the following folders:
-- `docs`, containing the images and user manual (future work).
+- `docs`, containing the images and user manual.
 - `control_board`, containing the source files to reproduce the control board.
 - `hydraulic pump`, containing the source files to reproduce the hydraulic pump.
 - `phantom`, containing the source files to reproduce the phantom structure, mimicking the common carotid artery and surrounding tissue.
@@ -40,7 +40,7 @@ If you would like to reference the project, please cite the following paper:
 ```
 @inproceedings{vostrikov2022opensource,
   title={Open-Source Fully-Programmable Flow Phantom for Doppler Ultrasound},
-  author={Vostrikov, Sergei and Josquin, Tille and Nazemtsev, Ilia and Benini, Luca and Cossettini, Andrea},
+  author={Vostrikov, Sergei and Tille, Josquin and Nazemtsev, Ilia and Benini, Luca and Cossettini, Andrea},
   booktitle={2024 IEEE Ultrasonics, Ferroelectrics, and Frequency Control Joint Symposium (UFFC-JS)},
   pages={1--4},
   year={2024},
