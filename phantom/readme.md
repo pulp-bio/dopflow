@@ -2,7 +2,9 @@
 
 This directory contains the necessary instructions and files for fabricating a phantom body, including materials and steps for creating both walled and wall-less channels.
 
-## Fabrication Steps
+For a step-by-step manufacturing and assembly instructions, please refer to the User manual located in `/docs/` folder of the root directory of the repository.
+
+## Summary of the Fabrication Steps
 
 1. **Acrylic Frame Laser Cutting**
     - Laser cut the file `AcrilicBoxV4.svg` in acrylic and assemble the box using [acrifix glue](https://link-url-here.org).

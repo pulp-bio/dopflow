@@ -1,13 +1,15 @@
 
 
 
-# Hydraulic pump: 
-Here you will find the files necessary to build the syringe based hydraulic pump.
+# Assembly of the Hydraulic Pump
+In this folder, you can find the files necessary to build the syringe based hydraulic pump.
+
+For a step-by-step assembly instruction, please refer to the User manual located in `/docs/` folder and to the assembly video `assembly_animation.mp4` located in `/hydraulic_pump/`.
 
 ## Machined part
 - `Ground_plate Drawing v4.pdf`, `Ground_plate.step`, are the plans to build the ground plate on which the component are mounted. It is made from a 5mm thick 500mm x 135mm aluminum plate. The pdf techincal drawing includes the specifications for the tolerances and threads
 
-## Printed part
+## 3D Printed parts
 The 3D printed parts are printed with PLA using FDM printing
 - `Barrel_holder_1.stl`, `Syringe_holder_2.stl` and `cap_1.stl` are the three element connecting the the syringe to the base plate
 - `plunger_puller_4.stl` and `plunger_pusher_2.stl` are connecting the plunger to the CNC rail.
