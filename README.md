@@ -2,9 +2,9 @@
 
 # DOPFLOW: 
 ## Open-Source Fully-Programmable Flow Phantom for Doppler Ultrasound
-### Introduction
+# Introduction
 
-This repository contains the design files to reproduce the DOPFLOW system presented at IUS Joint Symposium 2024 [1], 
+This repository contains the design files to reproduce the DOPFLOW system presented at IUS Joint Symposium 2024 [1].
 
 DOPFLOW is an all-in-one Doppler Flow Phantom system that mimics the common carotid artery.
 The platform has a modular design using off-the-shelf parts, including
@@ -13,23 +13,45 @@ The platform has a modular design using off-the-shelf parts, including
 - Phantom body with both walled and wall-less channels,
 - Graphical User Interface. 
 
-The platform allows users to define pulsatile patterns and achieve maximum flow speeds over 1 meter per second. We've validated DOPFLOW with a commercial ultrasound Doppler machine (SONIXRP), showing a velocity estimation error of less than 15%. These capabilities, plus the system's low cost (< 400$) and open-source design, make DOPFLOW a promising research tool for developing new Doppler ultrasound technologies.
+The platform allows users to define pulsatile patterns, achieves maximum flow speeds over 1 meter per second and was validated with a commercial ultrasound Doppler machine (SONIX RP). These capabilities, plus the system's low cost (< 300 $) and open-source design, make DOPFLOW a promising research tool for developing new Doppler ultrasound technologies.
 
-### Structure
+# Structure of the repository
 This repository has the following folders:
-- `docs`, containing the images and user manual.
 - `control_board`, containing the source files to reproduce the control board.
 - `hydraulic pump`, containing the source files to reproduce the hydraulic pump.
 - `phantom`, containing the source files to reproduce the phantom structure, mimicking the common carotid artery and surrounding tissue.
 - `software`, containing the source files for the graphical user interface (GUI) to control the motor.
+- `docs`, containing the project documentation (e.g., images of the device, user manual, ...)
 
-### Usage
+# Documentation 
 
-- First, fabricate the phantom body, the hydraulic pump, then assemble and program the control board using the instructions in the corresponding folders of the repository.
-- Next, connect the PC to the control board, connect the hydraulic pump to the control board (motor and limit swicthes) and power up the control board from the lab power supply (12 V, 2A).
-- Connect the phantom to the syringe pump with a silicone hydraulic line. 
-- Run the Graphical User interface and move the syringe with commands to fill in the volume with the blood-mimicking fluid.
-- Place the ultrasound transducer on the phantom, execute the custom pulse profile and make the measurements.
+The comprehensive [DOPFLOW User Manual](docs/dopflow_user_manual.pdf) located in the `docs/` folder, provides complete information on the DOPFLOW system, from assembly instructions to a detailed GUI overview. It’s designed to make the platform accessible and user-friendly for all, regardless of technical background.
+
+# How to reproduce?
+
+In a nutshell, to set up your own instance of DOPFLOW, follow these steps:
+
+1. *Fabricate and assemble the hardware*<br>
+   First, fabricate the phantom body and the hydraulic pump, then assemble and program the control board using instructions from the chapter 2 of the  [User Manual](docs/dopflow_user_manual.pdf) 
+
+2. *Python dependencies installation on the host PC*<br>
+   Follow the instructions in the `./software/` folder to install the dependencies.
+
+# Usage
+
+Please refer to chapter 3 of the [DOPFLOW User Manual](docs/dopflow_user_manual.pdf) for detailed information.
+
+1. *Connect and power the control board*<br>
+   Connect the PC to the control board, attach the hydraulic pump to the control board (connecting both the motor and limit switches), and power the control board using a 12 V, 2A lab power supply.
+
+2. *Connect the phantom to the hydraulic pump*<br>
+   Use a silicone hydraulic line to connect the phantom to the syringe pump.
+
+3. *Run the graphical user interface (GUI)*<br>
+   Launch the GUI, and use the controls to move the syringe and fill the phantom with the blood-mimicking fluid.
+
+4. *Place the ultrasound transducer and perform measurements*<br>
+   Position the ultrasound transducer on the phantom, run the custom pulse profile, and proceed with the measurements.
 
 # Citation
 

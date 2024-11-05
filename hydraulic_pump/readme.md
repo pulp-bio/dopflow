@@ -1,10 +1,10 @@
 
 
 
-# ASsembly of the Hydraulic Pump
+# Assembly of the Hydraulic Pump
 In this folder, you can find the files necessary to build the syringe based hydraulic pump.
 
-For a step-by-step assembly instruction, please refer to the User manual located in `/docs/` folder of the root directory of the repository.
+For a step-by-step assembly instruction, please refer to the User manual located in `/docs/` folder and to the assembly video `assembly_animation.mp4` located in `/hydraulic_pump/`.
 
 ## Machined part
 - `Ground_plate Drawing v4.pdf`, `Ground_plate.step`, are the plans to build the ground plate on which the component are mounted. It is made from a 5mm thick 500mm x 135mm aluminum plate. The pdf techincal drawing includes the specifications for the tolerances and threads
